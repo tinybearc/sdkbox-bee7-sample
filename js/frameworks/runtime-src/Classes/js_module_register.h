@@ -21,6 +21,9 @@
 #include "network/jsb_socketio.h"
 #include "cocos2d_specifics.hpp"
 
+#include "PluginBee7JS.hpp"
+#include "PluginBee7JSHelper.h"
+
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
 #include "platform/android/CCJavascriptJavaBridge.h"
 #elif (CC_TARGET_PLATFORM == CC_PLATFORM_IOS || CC_TARGET_PLATFORM == CC_PLATFORM_MAC)
@@ -73,6 +76,9 @@ int js_module_register()
 #elif (CC_TARGET_PLATFORM == CC_PLATFORM_IOS|| CC_TARGET_PLATFORM == CC_PLATFORM_MAC)
     sc->addRegisterCallback(JavaScriptObjCBridge::_js_register);
 #endif
+    
+    sc->addRegisterCallback(register_all_PluginBee7JS);
+    sc->addRegisterCallback(register_all_PluginBee7JS_helper);
     return 1;
 }
 

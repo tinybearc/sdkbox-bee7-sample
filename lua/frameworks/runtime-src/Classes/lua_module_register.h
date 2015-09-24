@@ -10,6 +10,8 @@
 #include "spine/lua_cocos2dx_spine_manual.hpp"
 #include "3d/lua_cocos2dx_3d_manual.h"
 #include "audioengine/lua_cocos2dx_audioengine_manual.h"
+#include "PluginBee7Lua.hpp"
+#include "PluginBee7LuaHelper.h"
 #include "lua/quick/lua_cocos2dx_quick_manual.hpp"
 
 static int lua_module_register(lua_State* L)
@@ -24,6 +26,8 @@ static int lua_module_register(lua_State* L)
     register_spine_module(L);
     register_cocos3d_module(L);
     register_audioengine_module(L);
+    register_all_PluginBee7Lua(L);
+    register_all_PluginBee7Lua_helper(L);
     return 1;
 }
 
