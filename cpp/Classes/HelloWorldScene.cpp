@@ -64,27 +64,28 @@ bool HelloWorld::init()
     _showGameWallButton = nullptr;
     
     Size size = CCDirector::getInstance()->getWinSize();
+
+    CCLOG("Size x:%d y:%d", size.width, size.height);
+
     // ui
-    {
-        _showGameWallButton = MenuItemFont::create("showGameWall", [](Ref*) {
-            CCLOG("[Bee7] showGameWall");
-            sdkbox::PluginBee7::showGameWall();
-        });
-        _showGameWallButton->setEnabled(false);
-        
-        Menu* menu = Menu::create(_showGameWallButton, NULL);
-        menu->alignItemsVerticallyWithPadding(20);
-        menu->setPosition(size.width/2, size.height/2);
-        addChild(menu);
-        
-        _bee7PointsLabel = Label::createWithSystemFont(point2String(0), "Arial", 32);
-        _bee7PointsLabel->setPosition(size.width/2, 100);
-        _virtualCurrencyAmountLabel = Label::createWithSystemFont(amount2String(0), "Arial", 32);
-        _virtualCurrencyAmountLabel->setPosition(size.width/2, 150);
-        
-        addChild(_bee7PointsLabel);
-        addChild(_virtualCurrencyAmountLabel);
-    }
+    _showGameWallButton = MenuItemFont::create("showGameWall", [](Ref*) {
+        CCLOG("[Bee7] showGameWall");
+        sdkbox::PluginBee7::showGameWall();
+    });
+    _showGameWallButton->setEnabled(false);
+    
+    Menu* menu = Menu::create(_showGameWallButton, NULL);
+    menu->alignItemsVerticallyWithPadding(20);
+    menu->setPosition(size.width/2, size.height/2);
+    addChild(menu);
+    
+    _bee7PointsLabel = Label::createWithSystemFont(point2String(0), "Arial", 32);
+    _bee7PointsLabel->setPosition(size.width/2, 100);
+    _virtualCurrencyAmountLabel = Label::createWithSystemFont(amount2String(0), "Arial", 32);
+    _virtualCurrencyAmountLabel->setPosition(size.width/2, 150);
+    
+    addChild(_bee7PointsLabel);
+    addChild(_virtualCurrencyAmountLabel);
     
     PluginBee7::setListener(this);
     PluginBee7::init();
