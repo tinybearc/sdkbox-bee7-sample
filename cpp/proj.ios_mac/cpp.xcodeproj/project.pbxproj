@@ -161,6 +161,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE54E1FA6643D49BBBC59B3 /* sdkbox.framework in Frameworks */,
+				26624D96B7544593495419A8 /* PluginBee7.framework in Frameworks */,
 				192977141BB22CF10002DFFC /* CFNetwork.framework in Frameworks */,
 				52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */,
 				D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */,
@@ -174,8 +176,6 @@
 				D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */,
 				D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */,
 				1E4146BB8C923CA52DB7FFF8 /* libcocos2d iOS.a in Frameworks */,
-				3FE54E1FA6643D49BBBC59B3 /* sdkbox.framework in Frameworks */,
-				26624D96B7544593495419A8 /* PluginBee7.framework in Frameworks */,
 				2948472397A89EC07002D74C /* MessageUI.framework in Frameworks */,
 				8859477CB8809DFD02E29AC3 /* CoreMedia.framework in Frameworks */,
 				3E784A8198BC183A671CF8B2 /* SystemConfiguration.framework in Frameworks */,
@@ -507,7 +507,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
-				FRAMEWORK_SEARCH_PATHS = "\"/Users/ac/repos/chukong/private/sdkbox-bee7-sample/cpp/proj.ios_mac/\"";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -551,7 +551,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
-				FRAMEWORK_SEARCH_PATHS = "\"/Users/ac/repos/chukong/private/sdkbox-bee7-sample/cpp/proj.ios_mac/\"";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
@@ -594,7 +594,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				FRAMEWORK_SEARCH_PATHS = "\"/Users/ac/repos/chukong/private/sdkbox-bee7-sample/cpp/proj.ios_mac/\"";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -635,7 +635,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				FRAMEWORK_SEARCH_PATHS = "\"/Users/ac/repos/chukong/private/sdkbox-bee7-sample/cpp/proj.ios_mac/\"";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = mac/Prefix.pch;
@@ -673,7 +673,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "\"/Users/ac/repos/chukong/private/sdkbox-bee7-sample/cpp/proj.ios_mac/\"";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -713,7 +713,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				FRAMEWORK_SEARCH_PATHS = "\"/Users/ac/repos/chukong/private/sdkbox-bee7-sample/cpp/proj.ios_mac/\"";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
