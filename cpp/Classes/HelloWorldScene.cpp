@@ -52,6 +52,8 @@ CCScene* HelloWorld::scene()
 // on "init" you need to initialize your instance
 bool HelloWorld::init()
 {
+    CCLOG("%s", cocos2dVersion());
+    
     //////////////////////////////
     // 1. super init first
     if ( !CCLayer::init() )
@@ -66,6 +68,7 @@ bool HelloWorld::init()
     Size size = CCDirector::getInstance()->getWinSize();
     // ui
     {
+        MenuItemFont::setFontName("Arial");
         _showGameWallButton = MenuItemFont::create("showGameWall", [](Ref*) {
             CCLOG("[Bee7] showGameWall");
             sdkbox::PluginBee7::showGameWall();
