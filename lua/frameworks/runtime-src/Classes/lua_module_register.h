@@ -12,7 +12,6 @@
 #include "audioengine/lua_cocos2dx_audioengine_manual.h"
 #include "PluginBee7Lua.hpp"
 #include "PluginBee7LuaHelper.h"
-#include "lua/quick/lua_cocos2dx_quick_manual.hpp"
 
 static int lua_module_register(lua_State* L)
 {
