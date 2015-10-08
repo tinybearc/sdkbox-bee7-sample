@@ -1,6 +1,6 @@
 
 var HelloWorldLayer = cc.Layer.extend({
-    sprite:null,
+    showbtn:null,
     ctor:function () {
         //////////////////////////////
         // 1. super init first
@@ -19,9 +19,9 @@ var HelloWorldLayer = cc.Layer.extend({
         cc.MenuItemFont.setFontName('Arial');
         cc.MenuItemFont.setFontSize(32);
 
-        var menu = new cc.Menu(
-            new cc.MenuItemFont("show game wall", this.showGameWallTest, this)
-            );
+        showbtn = new cc.MenuItemFont("show game wall", this.showGameWallTest, this);
+        showbtn.setEnabled(false);
+        var menu = new cc.Menu(showbtn);
         menu.setPosition(size.width/2, size.height/2);
         menu.alignItemsVerticallyWithPadding(20);
         this.addChild(menu);
@@ -34,6 +34,9 @@ var HelloWorldLayer = cc.Layer.extend({
                             " virtualCurrencyAmount=" + virtualCurrencyAmount +
                             " appId=" + appId;
                 console.log("sdkbox-bee7 cb [onGiveReward]" + msg);
+            },
+            onAvailableChange : function  (available) {
+                showbtn.setEnabled(available);
             }
             });
 
