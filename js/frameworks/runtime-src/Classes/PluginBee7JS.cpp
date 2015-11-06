@@ -2,6 +2,8 @@
 #include "cocos2d_specifics.hpp"
 #include "PluginBee7/PluginBee7.h"
 #include "SDKBoxJSHelper.h"
+#include "sdkbox/sdkbox.h"
+
 
 #if defined(MOZJS_MAJOR_VERSION)
 #if MOZJS_MAJOR_VERSION >= 33
@@ -343,6 +345,8 @@ void register_all_PluginBee7JS(JSContext* cx, JS::HandleObject obj) {
     get_or_create_js_obj(cx, obj, "sdkbox", &ns);
 
     js_register_PluginBee7JS_PluginBee7(cx, ns);
+
+    sdkbox::setProjectType("js");
 }
 #else
 void register_all_PluginBee7JS(JSContext* cx, JSObject* obj) {
@@ -360,6 +364,8 @@ void register_all_PluginBee7JS(JSContext* cx, JSObject* obj) {
     obj = ns;
 
     js_register_PluginBee7JS_PluginBee7(cx, obj);
+
+    sdkbox::setProjectType("js");
 }
 #endif
 #elif defined(JS_VERSION)
@@ -378,5 +384,7 @@ void register_all_PluginBee7JS(JSContext* cx, JSObject* obj) {
     obj = ns;
 
     js_register_PluginBee7JS_PluginBee7(cx, obj);
+
+    sdkbox::setProjectType("js");
 }
 #endif

@@ -1,6 +1,7 @@
 
 var HelloWorldLayer = cc.Layer.extend({
     showbtn:null,
+    info:null,
     ctor:function () {
         //////////////////////////////
         // 1. super init first
@@ -14,6 +15,10 @@ var HelloWorldLayer = cc.Layer.extend({
 
         // ui
 
+        var self = this;
+        self.points = 0;
+        self.amount = 0;
+
         console.log("sdkbox-bee7: init");
 
         cc.MenuItemFont.setFontName('Arial');
@@ -21,7 +26,8 @@ var HelloWorldLayer = cc.Layer.extend({
 
         showbtn = new cc.MenuItemFont("show game wall", this.showGameWallTest, this);
         showbtn.setEnabled(false);
-        var menu = new cc.Menu(showbtn);
+        info = new cc.MenuItemFont("bee7Points=0 virtualCurrencyAmount=0");
+        var menu = new cc.Menu(showbtn, info);
         menu.setPosition(size.width/2, size.height/2);
         menu.alignItemsVerticallyWithPadding(20);
         this.addChild(menu);
@@ -34,6 +40,11 @@ var HelloWorldLayer = cc.Layer.extend({
                             " virtualCurrencyAmount=" + virtualCurrencyAmount +
                             " appId=" + appId;
                 console.log("sdkbox-bee7 cb [onGiveReward]" + msg);
+
+                self.points += bee7Points;
+                self.amount += virtualCurrencyAmount;
+
+                info.setString("bee7Points=" + self.points + " virtualCurrencyAmount=" + self.amount);
             },
             onAvailableChange : function  (available) {
                 showbtn.setEnabled(available);

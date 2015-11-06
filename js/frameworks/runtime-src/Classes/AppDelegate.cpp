@@ -11,6 +11,8 @@
 #else
 #include "js_module_register.h"
 #endif
+#include "PluginBee7JS.hpp"
+#include "PluginBee7JSHelper.h"
 
 USING_NS_CC;
 using namespace CocosDenshion;
@@ -69,7 +71,9 @@ bool AppDelegate::applicationDidFinishLaunching()
     }
 #else
    js_module_register();
-   ScriptingCore* sc = ScriptingCore::getInstance();
+    ScriptingCore* sc = ScriptingCore::getInstance();
+    sc->addRegisterCallback(register_all_PluginBee7JS);
+    sc->addRegisterCallback(register_all_PluginBee7JS_helper);
    sc->start();
    sc->runScript("script/jsb_boot.js");
    ScriptEngineProtocol *engine = ScriptingCore::getInstance();

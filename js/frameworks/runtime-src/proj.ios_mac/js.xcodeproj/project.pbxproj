@@ -137,15 +137,20 @@
 		509D4AE617EBB81800697056 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		509D4AE817EBB82000697056 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		509D4AEA17EBB82600697056 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		632E4FA19E0455B54ADB5D71 /* pt */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = pt; path = Bee7GWResources.bundle/Resources/pt.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		647C41DA86C621435BA6B69C /* ja */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = ja; path = Bee7GWResources.bundle/Resources/ja.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		6D664FA9BB6A5E798BD4CD31 /* en */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = en; path = Bee7GWResources.bundle/Resources/en.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		6F064D488C7A4BDCB040F298 /* ru */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = ru; path = Bee7GWResources.bundle/Resources/ru.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		86C84569A7E5F572DA3582DB /* PluginBee7JS.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginBee7JS.hpp; path = ../Classes/PluginBee7JS.hpp; sourceTree = SOURCE_ROOT; };
 		877040F1B7C4ED3D4CF28E41 /* es */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = es; path = Bee7GWResources.bundle/Resources/es.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		87C84140A62BA68CA7F59D40 /* fr */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = fr; path = Bee7GWResources.bundle/Resources/fr.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		8CBB49D597695A70542DE5DB /* ru */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = ru; path = Bee7GWResources.bundle/Resources/ru.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		8CBE441FA79C8EB1751F4E26 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = zh_TW; path = Bee7GWResources.bundle/Resources/zh_TW.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		8CFA43AEADD0128BACCABC9A /* it */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = it; path = Bee7GWResources.bundle/Resources/it.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		8FC04708A24CC30FC0648C3A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = zh_CN; path = Bee7GWResources.bundle/Resources/zh_CN.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		90A344FDA06EA94036E4BD37 /* sdkbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = sdkbox.framework; sourceTree = SOURCE_ROOT; };
 		98FF4968A0D29F20E4E27E04 /* tr */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = tr; path = Bee7GWResources.bundle/Resources/tr.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		9B274FD18AE09C36DBFD7270 /* ja */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = ja; path = Bee7GWResources.bundle/Resources/ja.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		9F20C9E11A5BBE85006FB50B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		9FFEB99F1A6AB7F70095C43A /* CodeIDESupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeIDESupport.h; sourceTree = "<group>"; };
 		9FFEB9A01A6AB7F70095C43A /* lang */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lang; sourceTree = "<group>"; };
@@ -155,6 +160,7 @@
 		9FFEB9C01A6B86360095C43A /* SimpleConfigParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleConfigParser.cpp; sourceTree = "<group>"; };
 		9FFEB9C11A6B86360095C43A /* SimpleConfigParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleConfigParser.h; sourceTree = "<group>"; };
 		A1E14FF6A9696849E8516896 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		A4024062B77C683F80AEB8C6 /* ko */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = ko; path = Bee7GWResources.bundle/Resources/ko.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		A922753D1517C094001B78AA /* js iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "js iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92275411517C094001B78AA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A92275431517C094001B78AA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -166,15 +172,18 @@
 		A922754F1517C094001B78AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AAA941509222044A04ABD36A /* SDKBoxJSHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDKBoxJSHelper.h; path = ../Classes/SDKBoxJSHelper.h; sourceTree = SOURCE_ROOT; };
 		AB8341F4BD2BF9BD31EAD6B6 /* pt */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = pt; path = Bee7GWResources.bundle/Resources/pt.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		AD2A4DD493D09D3B3341BC04 /* de */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = de; path = Bee7GWResources.bundle/Resources/de.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		ADE9417B818E211E865CBDDF /* ko */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = ko; path = Bee7GWResources.bundle/Resources/ko.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		B11A44AE9964565BEB407525 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
 		BA4E718619EB6E7900932425 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
 		BACF4497938657E778807842 /* PluginBee7JSHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginBee7JSHelper.cpp; path = ../Classes/PluginBee7JSHelper.cpp; sourceTree = SOURCE_ROOT; };
 		BAEC46D0AFF41C8160F2C4FC /* ar */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = ar; path = Bee7GWResources.bundle/Resources/ar.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		BCDD47DAB21C3D3D70CA3E8D /* tr */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = tr; path = Bee7GWResources.bundle/Resources/tr.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		C03780EA18BEE0E400FE4F13 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../../src; sourceTree = "<group>"; };
 		C05D1C161923467600B808A4 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = config.json; path = ../../../config.json; sourceTree = "<group>"; };
 		C0799CB518BAE62000E9C828 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = res; path = ../../../res; sourceTree = "<group>"; };
 		C138454CA5906A3A92BB0725 /* PluginBee7JSHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginBee7JSHelper.h; path = ../Classes/PluginBee7JSHelper.h; sourceTree = SOURCE_ROOT; };
+		C64C457DB3DFF965778BBCD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = en; path = Bee7GWResources.bundle/Resources/en.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		CEDD4A11A79F5BAAF90A33FB /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
 		D454520B156E22BD00887EB5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		D4545215156E28EF00887EB5 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
@@ -182,9 +191,13 @@
 		D4AA4A52AA67F7A7F8BBACD0 /* libsimulator iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsimulator iOS.a"; path = "../../../../cocos2d-x-3.6-lib/prebuilt/ios/libsimulator iOS.a"; sourceTree = "<absolute>"; };
 		D4BF405D8DE824F72CFC9065 /* Bee7GWResources.bundle/ */ = {isa = PBXFileReference; lastKnownFileType = "?"; path = Bee7GWResources.bundle/; sourceTree = SOURCE_ROOT; };
 		D5324188A5C77E96F13F0C73 /* libjscocos2d iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libjscocos2d iOS.a"; path = "../../../../cocos2d-x-3.6-lib/prebuilt/ios/libjscocos2d iOS.a"; sourceTree = "<absolute>"; };
+		D5C542638902675A9B82C878 /* it */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = it; path = Bee7GWResources.bundle/Resources/it.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		D6B061231803AB9F0077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		D6CC4D159652743D8A2DEF6E /* ar */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = ar; path = Bee7GWResources.bundle/Resources/ar.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		D92B475DB1E8D37E12D80F72 /* PluginBee7.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginBee7.framework; sourceTree = SOURCE_ROOT; };
+		DAF84CD49B553E3F56986BFE /* fr */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = fr; path = Bee7GWResources.bundle/Resources/fr.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		F32C40D4B7C036999DE194FC /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = zh_CN; path = Bee7GWResources.bundle/Resources/zh_CN.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		FA814BAA92E398EE640FD224 /* es */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = es; path = Bee7GWResources.bundle/Resources/es.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		FDC345F480B16A94C4294398 /* script */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = script; path = ../../../script; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -586,6 +599,19 @@
 				98FF4968A0D29F20E4E27E04 /* tr */,
 				F32C40D4B7C036999DE194FC /* zh_CN */,
 				2DA345D096AECE053BBA8EB9 /* zh_TW */,
+				D6CC4D159652743D8A2DEF6E /* ar */,
+				AD2A4DD493D09D3B3341BC04 /* de */,
+				C64C457DB3DFF965778BBCD9 /* en */,
+				FA814BAA92E398EE640FD224 /* es */,
+				DAF84CD49B553E3F56986BFE /* fr */,
+				D5C542638902675A9B82C878 /* it */,
+				9B274FD18AE09C36DBFD7270 /* ja */,
+				A4024062B77C683F80AEB8C6 /* ko */,
+				632E4FA19E0455B54ADB5D71 /* pt */,
+				8CBB49D597695A70542DE5DB /* ru */,
+				BCDD47DAB21C3D3D70CA3E8D /* tr */,
+				8FC04708A24CC30FC0648C3A /* zh_CN */,
+				8CBE441FA79C8EB1751F4E26 /* zh_TW */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -627,6 +653,8 @@
 					"-fobjc-arc",
 					"-force_load",
 					PluginBee7.framework/PluginBee7,
+					"-force_load",
+					PluginBee7.framework/PluginBee7,
 				);
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "$(inherited) ../../../../cocos2d-x-3.6-lib/cocos/platform/mac ../../../../cocos2d-x-3.6-lib/external/glfw3/include/mac ../../../../cocos2d-x-3.6-lib/external/spidermonkey/include/mac";
@@ -666,6 +694,8 @@
 					"-fobjc-arc",
 					"-force_load",
 					PluginBee7.framework/PluginBee7,
+					"-force_load",
+					PluginBee7.framework/PluginBee7,
 				);
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "$(inherited) ../../../../cocos2d-x-3.6-lib/cocos/platform/mac ../../../../cocos2d-x-3.6-lib/external/glfw3/include/mac ../../../../cocos2d-x-3.6-lib/external/spidermonkey/include/mac";
@@ -701,6 +731,8 @@
 					"-fobjc-arc",
 					"-force_load",
 					PluginBee7.framework/PluginBee7,
+					"-force_load",
+					PluginBee7.framework/PluginBee7,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "../../../../cocos2d-x-3.6-lib ../../../../cocos2d-x-3.6-lib/cocos ../../../../cocos2d-x-3.6-lib/cocos/base ../../../../cocos2d-x-3.6-lib/cocos/physics ../../../../cocos2d-x-3.6-lib/cocos/math/kazmath ../../../../cocos2d-x-3.6-lib/cocos/2d ../../../../cocos2d-x-3.6-lib/cocos/gui ../../../../cocos2d-x-3.6-lib/cocos/network ../../../../cocos2d-x-3.6-lib/cocos/audio/include ../../../../cocos2d-x-3.6-lib/cocos/editor-support ../../../../cocos2d-x-3.6-lib/extensions ../../../../cocos2d-x-3.6-lib/external ../../../../cocos2d-x-3.6-lib/external/chipmunk/include/chipmunk ../../../../cocos2d-x-3.6-lib/cocos/scripting/js-bindings/auto ../../../../cocos2d-x-3.6-lib/cocos/scripting/js-bindings/manual";
@@ -733,6 +765,8 @@
 					"-fobjc-arc",
 					"-force_load",
 					PluginBee7.framework/PluginBee7,
+					"-force_load",
+					PluginBee7.framework/PluginBee7,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "../../../../cocos2d-x-3.6-lib ../../../../cocos2d-x-3.6-lib/cocos ../../../../cocos2d-x-3.6-lib/cocos/base ../../../../cocos2d-x-3.6-lib/cocos/physics ../../../../cocos2d-x-3.6-lib/cocos/math/kazmath ../../../../cocos2d-x-3.6-lib/cocos/2d ../../../../cocos2d-x-3.6-lib/cocos/gui ../../../../cocos2d-x-3.6-lib/cocos/network ../../../../cocos2d-x-3.6-lib/cocos/audio/include ../../../../cocos2d-x-3.6-lib/cocos/editor-support ../../../../cocos2d-x-3.6-lib/extensions ../../../../cocos2d-x-3.6-lib/external ../../../../cocos2d-x-3.6-lib/external/chipmunk/include/chipmunk ../../../../cocos2d-x-3.6-lib/cocos/scripting/js-bindings/auto ../../../../cocos2d-x-3.6-lib/cocos/scripting/js-bindings/manual";
@@ -746,7 +780,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
-				FRAMEWORK_SEARCH_PATHS = "\"/Users/ac/repos/chukong/private/sdkbox-bee7-sample/js/frameworks/runtime-src/proj.ios_mac/\"";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
@@ -785,7 +819,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
-				FRAMEWORK_SEARCH_PATHS = "\"/Users/ac/repos/chukong/private/sdkbox-bee7-sample/js/frameworks/runtime-src/proj.ios_mac/\"";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
