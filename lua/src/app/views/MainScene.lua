@@ -12,7 +12,12 @@ function MainScene:onCreate()
                         bee7:showGameWall()
                     end)
     btn:setEnabled(false)
-    cc.Menu:create(btn)
+
+    local info = cc.MenuItemFont:create("bee7Points=0 virtualCurrencyAmount=0")
+    local bee7Points = 0
+    local virtualCurrencyAmount = 0
+
+    cc.Menu:create(btn,info)
         :move(display.cx, display.cy)
         :addTo(self)
         :alignItemsVerticallyWithPadding(20)
@@ -23,8 +28,13 @@ function MainScene:onCreate()
     bee7:init()
     bee7:setListener(function(args)
             dump(args, "sdkbox-bee7 callback")
-            if args.name == "onAvailableChange" then
+            local funcname = args.name
+            if funcname == "onAvailableChange" then
                 btn:setEnabled(args.available)
+            elseif funcname == "onGiveReward" then
+                bee7Points = bee7Points + args.points
+                virtualCurrencyAmount = virtualCurrencyAmount + args.amount
+                info:setString("bee7Points=" .. bee7Points .. " virtualCurrencyAmount=" .. virtualCurrencyAmount)
             end
         end)
 
