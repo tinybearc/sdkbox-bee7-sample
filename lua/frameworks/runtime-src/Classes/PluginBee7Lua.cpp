@@ -2,6 +2,7 @@
 #include "PluginBee7/PluginBee7.h"
 #include "tolua_fix.h"
 #include "SDKBoxLuaHelper.h"
+#include "sdkbox/sdkbox.h"
 
 
 
@@ -103,6 +104,8 @@ TOLUA_API int register_all_PluginBee7Lua(lua_State* tolua_S)
 	lua_register_PluginBee7Lua_PluginBee7(tolua_S);
 
 	tolua_endmodule(tolua_S);
+
+	sdkbox::setProjectType("lua");
 	return 1;
 }
 
