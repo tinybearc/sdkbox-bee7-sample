@@ -9,6 +9,7 @@ LOCAL_MODULE_FILENAME := libcocos2djs
 LOCAL_SRC_FILES := ../../Classes/AppDelegate.cpp ../../Classes/ide-support/SimpleConfigParser.cpp ../../Classes/ide-support/RuntimeJsImpl.cpp hellojavascript/main.cpp ../../Classes/PluginBee7JS.cpp ../../Classes/PluginBee7JSHelper.cpp ../../Classes/SDKBoxJSHelper.cpp
 
 LOCAL_LDLIBS := -landroid -llog
+LOCAL_CPPFLAGS := -DSDKBOX_ENABLED
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes
 LOCAL_WHOLE_STATIC_LIBRARIES := PluginBee7 sdkbox
 
