@@ -16,9 +16,8 @@
 		1AD7E0A918C9DBE3004817A6 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 1A6BF21418C9DB5900FB0E1C /* main.js */; };
 		1AE159EC18C9DF3600FCA372 /* project.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A081B18C9DF05005C6854 /* project.json */; };
 		26C442FDA8CD6093A51BF790 /* PluginBee7JSHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BACF4497938657E778807842 /* PluginBee7JSHelper.cpp */; };
-		2EDB4CB7882281A462B13945 /* Bee7GWResources.bundle/ in Resources */ = {isa = PBXBuildFile; fileRef = D4BF405D8DE824F72CFC9065 /* Bee7GWResources.bundle/ */; };
+		2BFD4C2CB5934A9A3DBA2FA9 /* Bee7GWResources.bundle/ in Resources */ = {isa = PBXBuildFile; fileRef = 124648169CCA122C8A009377 /* Bee7GWResources.bundle/ */; };
 		34654DFBA747C20B97291C22 /* script in Resources */ = {isa = PBXBuildFile; fileRef = FDC345F480B16A94C4294398 /* script */; };
-		37164A169C28606A816F7DAE /* Bee7GWResources.bundle/ in Resources */ = {isa = PBXBuildFile; fileRef = D4BF405D8DE824F72CFC9065 /* Bee7GWResources.bundle/ */; };
 		3A614A828BDEEC3FCC21A0B3 /* SDKBoxJSHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34F948A3B07B89E9250EA1D2 /* SDKBoxJSHelper.cpp */; };
 		3FB04540A367B5BE31D9637F /* SDKBoxJSHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34F948A3B07B89E9250EA1D2 /* SDKBoxJSHelper.cpp */; };
 		49234D7F8D476A2386FB625E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C64A28ACEAF8B4E2D1D13F /* SystemConfiguration.framework */; };
@@ -84,6 +83,7 @@
 		C0799CB918BAE62000E9C828 /* res in Resources */ = {isa = PBXBuildFile; fileRef = C0799CB518BAE62000E9C828 /* res */; };
 		C0799CBA18BAE62000E9C828 /* res in Resources */ = {isa = PBXBuildFile; fileRef = C0799CB518BAE62000E9C828 /* res */; };
 		C5014493B29E45A10762AD2D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C64A28ACEAF8B4E2D1D13F /* SystemConfiguration.framework */; };
+		CDA74C5AA6C5575B3ABBF9F1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 466346D09F174221E61233C6 /* Localizable.strings */; };
 		D36C4435AC7F40B01CBE6711 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B11A44AE9964565BEB407525 /* MessageUI.framework */; };
 		D454520C156E22BD00887EB5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D454520B156E22BD00887EB5 /* libz.dylib */; };
 		D4545227156E28EF00887EB5 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4545215156E28EF00887EB5 /* AppDelegate.cpp */; };
@@ -97,14 +97,19 @@
 
 /* Begin PBXFileReference section */
 		1103419C9B641A330AE99CD0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		124648169CCA122C8A009377 /* Bee7GWResources.bundle/ */ = {isa = PBXFileReference; lastKnownFileType = "?"; path = Bee7GWResources.bundle/; sourceTree = SOURCE_ROOT; };
 		1A1A081B18C9DF05005C6854 /* project.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = project.json; path = ../../../project.json; sourceTree = "<group>"; };
 		1A6BF21418C9DB5900FB0E1C /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = main.js; path = ../../../main.js; sourceTree = "<group>"; };
 		1A82F5FA169AC92500C4B13A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		1A96A4F2174A3432008653A9 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = "../../../../cocos2d-x-3.6-lib/cocos2dx/platform/third_party/ios/libraries/libcurl.a"; sourceTree = "<group>"; };
+		2909433C98456095BA85973F /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = zh_TW; path = Bee7GWResources.bundle/Resources/zh_TW.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		2B9D4DB087F3CDE20C463207 /* PluginBee7JS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginBee7JS.cpp; path = ../Classes/PluginBee7JS.cpp; sourceTree = SOURCE_ROOT; };
 		34F948A3B07B89E9250EA1D2 /* SDKBoxJSHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKBoxJSHelper.cpp; path = ../Classes/SDKBoxJSHelper.cpp; sourceTree = SOURCE_ROOT; };
+		403446ADB7D6E463B9E9D421 /* tr */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = tr; path = Bee7GWResources.bundle/Resources/tr.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		40C64A28ACEAF8B4E2D1D13F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		41604A0CBED39FA992C08B88 /* libcocos2d iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcocos2d iOS.a"; path = "../../../../cocos2d-x-3.6-lib/prebuilt/ios/libcocos2d iOS.a"; sourceTree = "<absolute>"; };
+		432E4AF2B503884E9363F96D /* it */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = it; path = Bee7GWResources.bundle/Resources/it.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		45014E178F3558ABD46CCA55 /* ko */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = ko; path = Bee7GWResources.bundle/Resources/ko.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		502380DB17EBB88200990C9B /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
 		5091731417ECDF7A00D62437 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-29.png"; path = "ios/Icon-29.png"; sourceTree = "<group>"; };
 		5091731517ECDF7A00D62437 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-40.png"; path = "ios/Icon-40.png"; sourceTree = "<group>"; };
@@ -133,8 +138,11 @@
 		509D4AE617EBB81800697056 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		509D4AE817EBB82000697056 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		509D4AEA17EBB82600697056 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		586D4D9286E670B95EF84F3E /* ja */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = ja; path = Bee7GWResources.bundle/Resources/ja.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		5D7945ADA1E6D129373854DC /* es */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = es; path = Bee7GWResources.bundle/Resources/es.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		86C84569A7E5F572DA3582DB /* PluginBee7JS.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginBee7JS.hpp; path = ../Classes/PluginBee7JS.hpp; sourceTree = SOURCE_ROOT; };
 		90A344FDA06EA94036E4BD37 /* sdkbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = sdkbox.framework; sourceTree = SOURCE_ROOT; };
+		98AD4D958F2E4B0F38CE704C /* fr */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = fr; path = Bee7GWResources.bundle/Resources/fr.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		9F20C9E11A5BBE85006FB50B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		9FFEB99F1A6AB7F70095C43A /* CodeIDESupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeIDESupport.h; sourceTree = "<group>"; };
 		9FFEB9A01A6AB7F70095C43A /* lang */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lang; sourceTree = "<group>"; };
@@ -144,6 +152,7 @@
 		9FFEB9C01A6B86360095C43A /* SimpleConfigParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleConfigParser.cpp; sourceTree = "<group>"; };
 		9FFEB9C11A6B86360095C43A /* SimpleConfigParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleConfigParser.h; sourceTree = "<group>"; };
 		A1E14FF6A9696849E8516896 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		A1EE4883B8479337FF241804 /* en */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = en; path = Bee7GWResources.bundle/Resources/en.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		A922753D1517C094001B78AA /* js iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "js iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92275411517C094001B78AA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A92275431517C094001B78AA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -155,8 +164,11 @@
 		A922754F1517C094001B78AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AAA941509222044A04ABD36A /* SDKBoxJSHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDKBoxJSHelper.h; path = ../Classes/SDKBoxJSHelper.h; sourceTree = SOURCE_ROOT; };
 		B11A44AE9964565BEB407525 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		B2E34FA2B341D0BD70030A57 /* ar */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = ar; path = Bee7GWResources.bundle/Resources/ar.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		B8414CF6B5165BF36C3B3314 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = zh_CN; path = Bee7GWResources.bundle/Resources/zh_CN.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		BA4E718619EB6E7900932425 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
 		BACF4497938657E778807842 /* PluginBee7JSHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginBee7JSHelper.cpp; path = ../Classes/PluginBee7JSHelper.cpp; sourceTree = SOURCE_ROOT; };
+		BD444695AEF459BFEFCCC8C0 /* de */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = de; path = Bee7GWResources.bundle/Resources/de.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		C03780EA18BEE0E400FE4F13 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../../src; sourceTree = "<group>"; };
 		C05D1C161923467600B808A4 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = config.json; path = ../../../config.json; sourceTree = "<group>"; };
 		C0799CB518BAE62000E9C828 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = res; path = ../../../res; sourceTree = "<group>"; };
@@ -166,10 +178,11 @@
 		D4545215156E28EF00887EB5 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		D4545216156E28EF00887EB5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D4AA4A52AA67F7A7F8BBACD0 /* libsimulator iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsimulator iOS.a"; path = "../../../../cocos2d-x-3.6-lib/prebuilt/ios/libsimulator iOS.a"; sourceTree = "<absolute>"; };
-		D4BF405D8DE824F72CFC9065 /* Bee7GWResources.bundle/ */ = {isa = PBXFileReference; lastKnownFileType = "?"; path = Bee7GWResources.bundle/; sourceTree = SOURCE_ROOT; };
 		D5324188A5C77E96F13F0C73 /* libjscocos2d iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libjscocos2d iOS.a"; path = "../../../../cocos2d-x-3.6-lib/prebuilt/ios/libjscocos2d iOS.a"; sourceTree = "<absolute>"; };
 		D6B061231803AB9F0077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		D92B475DB1E8D37E12D80F72 /* PluginBee7.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginBee7.framework; sourceTree = SOURCE_ROOT; };
+		F5AB4DC68222B071745E9A53 /* ru */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = ru; path = Bee7GWResources.bundle/Resources/ru.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		FCD8437E84FCE37A5BA7A7C2 /* pt */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = pt; path = Bee7GWResources.bundle/Resources/pt.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		FDC345F480B16A94C4294398 /* script */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = script; path = ../../../script; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -287,7 +300,8 @@
 				A922753E1517C094001B78AA /* Products */,
 				15628F5B15F0F5C2000CF24B /* Resources */,
 				BB89457FB508A6E19C54D2F3 /* ios-libs */,
-				D4BF405D8DE824F72CFC9065 /* Bee7GWResources.bundle/ */,
+				124648169CCA122C8A009377 /* Bee7GWResources.bundle/ */,
+				466346D09F174221E61233C6 /* Localizable.strings */,
 			);
 			sourceTree = "<group>";
 		};
@@ -468,7 +482,6 @@
 				9FFEB9A91A6AB7F70095C43A /* lang in Resources */,
 				C03780EC18BEE0E400FE4F13 /* src in Resources */,
 				11B34215BEA566B326BB2AE2 /* script in Resources */,
-				2EDB4CB7882281A462B13945 /* Bee7GWResources.bundle/ in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,7 +511,8 @@
 				509D4AC417EBB2AB00697056 /* Icon-120.png in Resources */,
 				5091731D17ECDF7A00D62437 /* Icon-58.png in Resources */,
 				34654DFBA747C20B97291C22 /* script in Resources */,
-				37164A169C28606A816F7DAE /* Bee7GWResources.bundle/ in Resources */,
+				2BFD4C2CB5934A9A3DBA2FA9 /* Bee7GWResources.bundle/ in Resources */,
+				CDA74C5AA6C5575B3ABBF9F1 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,6 +564,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		466346D09F174221E61233C6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2E34FA2B341D0BD70030A57 /* ar */,
+				BD444695AEF459BFEFCCC8C0 /* de */,
+				A1EE4883B8479337FF241804 /* en */,
+				5D7945ADA1E6D129373854DC /* es */,
+				98AD4D958F2E4B0F38CE704C /* fr */,
+				432E4AF2B503884E9363F96D /* it */,
+				586D4D9286E670B95EF84F3E /* ja */,
+				45014E178F3558ABD46CCA55 /* ko */,
+				FCD8437E84FCE37A5BA7A7C2 /* pt */,
+				F5AB4DC68222B071745E9A53 /* ru */,
+				403446ADB7D6E463B9E9D421 /* tr */,
+				B8414CF6B5165BF36C3B3314 /* zh_CN */,
+				2909433C98456095BA85973F /* zh_TW */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		509D4AA817EBB24E00697056 /* Debug */ = {
@@ -669,6 +706,8 @@
 					PluginBee7.framework/PluginBee7,
 					"-force_load",
 					PluginBee7.framework/PluginBee7,
+					"-force_load",
+					PluginBee7.framework/PluginBee7,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "../../../../cocos2d-x-3.6-lib ../../../../cocos2d-x-3.6-lib/cocos ../../../../cocos2d-x-3.6-lib/cocos/base ../../../../cocos2d-x-3.6-lib/cocos/physics ../../../../cocos2d-x-3.6-lib/cocos/math/kazmath ../../../../cocos2d-x-3.6-lib/cocos/2d ../../../../cocos2d-x-3.6-lib/cocos/gui ../../../../cocos2d-x-3.6-lib/cocos/network ../../../../cocos2d-x-3.6-lib/cocos/audio/include ../../../../cocos2d-x-3.6-lib/cocos/editor-support ../../../../cocos2d-x-3.6-lib/extensions ../../../../cocos2d-x-3.6-lib/external ../../../../cocos2d-x-3.6-lib/external/chipmunk/include/chipmunk ../../../../cocos2d-x-3.6-lib/cocos/scripting/js-bindings/auto ../../../../cocos2d-x-3.6-lib/cocos/scripting/js-bindings/manual";
@@ -702,6 +741,8 @@
 				);
 				OTHER_LDFLAGS = (
 					"-fobjc-arc",
+					"-force_load",
+					PluginBee7.framework/PluginBee7,
 					"-force_load",
 					PluginBee7.framework/PluginBee7,
 					"-force_load",
@@ -749,6 +790,8 @@
 					PluginBee7.framework/PluginBee7,
 					"-force_load",
 					PluginBee7.framework/PluginBee7,
+					"-force_load",
+					PluginBee7.framework/PluginBee7,
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -787,6 +830,8 @@
 				OTHER_CFLAGS = "-DSDKBOX_ENABLED";
 				OTHER_LDFLAGS = (
 					"-fobjc-arc",
+					"-force_load",
+					PluginBee7.framework/PluginBee7,
 					"-force_load",
 					PluginBee7.framework/PluginBee7,
 					"-force_load",
